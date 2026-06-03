@@ -1,0 +1,190 @@
+/* =========================
+   Variables
+========================= */
+:root {
+  --color-primary: #6b0057;
+  --color-light: #f9d0f0;
+  --color-dark: #111827;
+  --color-border: #e5e7eb;
+  --color-bg: #f7f7f7;
+  --radius: 12px;
+  --space: 16px;
+}
+
+/* =========================
+   Base
+========================= */
+body {
+  font-family: Arial, sans-serif;
+  color: #222;
+  background: var(--color-bg);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* =========================
+   Tipografia
+========================= */
+h1, h2 {
+  color: var(--color-dark);
+}
+
+a {
+  color: #0366d6;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* =========================
+   Header
+========================= */
+header {
+  background: var(--color-primary);
+  color: white;
+  padding: 24px;
+}
+
+header h1 {
+  color: white;
+}
+
+header p {
+  color: var(--color-light);
+}
+
+/* =========================
+   Navbar
+========================= */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: var(--space);
+  padding: var(--space);
+  background: var(--color-light);
+}
+
+nav a {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* =========================
+   Layout
+========================= */
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 32px auto;
+}
+
+/* =========================
+   Componenti
+========================= */
+.card {
+  background: white;
+  padding: 20px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.cards .card {
+  flex: 1;
+  min-width: 240px;
+}
+
+/* =========================
+   Tabella
+========================= */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid var(--color-border);
+  text-align: left;
+}
+
+th {
+  background: var(--color-primary);
+  color: white;
+}
+
+/* =========================
+   Form
+========================= */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+button {
+  background: var(--color-primary);
+  color: white;
+  padding: 10px var(--space);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background: #4a003c;
+}
+
+/* =========================
+   Immagini
+========================= */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+}
+
+/* =========================
+   Footer
+========================= */
+footer {
+  background: var(--color-primary);
+  color: white;
+  text-align: center;
+  padding: var(--space);
+  margin-top: 32px;
+}
+
+/* =========================
+   Responsive
+========================= */
+@media (max-width: 700px) {
+  .cards {
+    flex-direction: column;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+}
