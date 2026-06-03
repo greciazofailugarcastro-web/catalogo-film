@@ -1,56 +1,61 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Catalogo Film</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
   <header>
     <h1>Catalogo Film</h1>
     <p>Una pagina per consultare una lista di film.</p>
+    <nav>
+      <a href="#funzionalita">Funzionalità</a>
+      <a href="#guida">Guida rapida</a>
+      <a href="#documentazione">Documentazione</a>
+      <a href="#screenshot">Screenshot</a>
+      <a href="#contatti">Contatti</a>
+    </nav>
   </header>
-
-  <nav>
-    <a href="#funzionalita">Funzionalità</a>
-    <a href="#guida">Guida rapida</a>
-    <a href="#documentazione">Documentazione</a>
-    <a href="#screenshot">Screenshot</a>
-    <a href="#contatti">Contatti</a>
-  </nav>
 
   <main class="container">
 
-    <div class="cards">
-      <section id="funzionalita" class="card">
-        <h2>Funzionalità</h2>
-        <ul>
-          <li>Ricerca per titolo</li>
-          <li>Filtro per genere</li>
-          <li>Visualizzazione dettagli</li>
-        </ul>
-      </section>
+    <section id="funzionalita" class="card">
+      <h2>Funzionalità</h2>
+      <ul>
+        <li>Ricerca per titolo</li>
+        <li>Filtro per genere</li>
+        <li>Visualizzazione dettagli film</li>
+      </ul>
+      <a href="https://github.com/greciazofailugarcastro-web/catalogo-film" class="button">Vai alla repository</a>
+    </section>
 
-      <section id="guida" class="card">
-        <h2>Guida rapida</h2>
-        <ol>
-          <li>Apri la pagina</li>
-          <li>Scrivi una parola nella barra di ricerca</li>
-          <li>Seleziona un film</li>
-          <li>Leggi i dettagli</li>
-        </ol>
-      </section>
+    <section id="guida" class="card">
+      <h2>Guida rapida</h2>
+      <ol>
+        <li>Apri la pagina</li>
+        <li>Leggi il README</li>
+        <li>Consulta la guida utente</li>
+        <li>Seleziona un film</li>
+        <li>Leggi i dettagli</li>
+      </ol>
+    </section>
 
-      <section id="documentazione" class="card">
-        <h2>Documentazione</h2>
-        <ul>
-          <li><a href="docs/installazione.md">Installazione</a></li>
-          <li><a href="docs/faq.md">FAQ</a></li>
-        </ul>
-      </section>
-    </div>
+    <section id="documentazione" class="card">
+      <h2>Documentazione</h2>
+      <ul>
+        <li><a href="docs/quick-start.md">Quick Start</a></li>
+        <li><a href="docs/guida-utente.md">Guida utente</a></li>
+        <li><a href="docs/installazione.md">Installazione</a></li>
+        <li><a href="docs/faq.md">FAQ</a></li>
+        <li><a href="docs/troubleshooting.md">Troubleshooting</a></li>
+        <li><a href="docs/architettura.md">Architettura</a></li>
+      </ul>
+    </section>
 
     <section id="struttura" class="card">
       <h2>Comandi Git</h2>
@@ -85,7 +90,7 @@
     <section id="screenshot" class="card">
       <h2>Screenshot</h2>
       <p>Questa schermata mostra la pagina principale del progetto.</p>
-      <img src="assets/screenshots/homepage.png" width="50%" alt="screenshot della homepage">
+      <img src="assets/screenshots/homepage.png" alt="Screenshot homepage">
     </section>
 
     <section id="contatti" class="card">
@@ -93,10 +98,8 @@
       <form>
         <label for="nome">Nome</label>
         <input type="text" id="nome" name="nome">
-
         <label for="messaggio">Messaggio</label>
         <textarea id="messaggio" name="messaggio"></textarea>
-
         <button type="submit">Invia</button>
       </form>
     </section>
@@ -104,10 +107,9 @@
   </main>
 
   <footer>
-    <p>Progetto FISM 2026</p>
+    <p>Progetto FISM 2026 — Grecia</p>
   </footer>
 
 </body>
+
 </html>
-
-

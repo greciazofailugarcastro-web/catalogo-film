@@ -1,28 +1,25 @@
-# Guida utente
+# Guida Utente
 
-## Come usare il progetto
+## Come usare il sito
 
-### 1. Avvia il programma
+### Navigazione
+Usa la navbar in alto per spostarti tra le sezioni:
+- **Funzionalità** - cosa fa il sito
+- **Guida rapida** - come usarlo
+- **Documentazione** - link ai docs
+- **Screenshot** - anteprima del sito
+- **Contatti** - modulo di contatto
 
-python main.py
+### Sezioni principali
 
-### 2. Gestione pagamenti
+**Funzionalità**
+Mostra le caratteristiche principali del catalogo film.
 
-- **Inserire un pagamento**: aggiungi un nuovo pagamento al database
-- **Consultare i pagamenti**: visualizza tutti i pagamenti salvati
-- **Generare report**: esporta i dati in formato leggibile
+**Guida rapida**
+Spiega come usare il sito in pochi passi.
 
-### 3. Generatore dati
+**Tabella comandi Git**
+Riferimento rapido ai comandi Git più usati.
 
-python generatore.py
-
-### 4. Eseguire i test
-
-python test.py
-
-## Esempio d'uso
-
-1. Apri il terminale
-2. Entra nella cartella del progetto
-3. Esegui `python main.py`
-4. Segui le istruzioni a schermo
+**Modulo di contatto**
+Compila il form per inviare un messaggio.

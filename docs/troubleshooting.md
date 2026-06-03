@@ -1,33 +1,19 @@
 # Troubleshooting
 
-## Il programma non si avvia
+## Il sito non si apre
+**Problema:** La pagina dà errore 404.
+**Soluzione:** Aspetta qualche minuto,
+GitHub Pages impiega tempo
+la prima volta.
 
-### Possibile causa
-Python non è installato correttamente.
+## Il CSS non si applica
+**Problema:** Il sito appare senza stile.
+**Soluzione:** Verifica che style.css
+sia nella stessa cartella di index.html.
 
-### Soluzione
-Verificare la versione di Python:
-
-python --version
-
-## Le dipendenze non si installano
-
-### Possibile causa
-Il file `requirements.txt` non esiste o è vuoto.
-
-### Soluzione
-Verificare che il file esista:
-
-cat requirements.txt
-
-Poi installare:
-
-pip install -r requirements.txt
-
-## Il database non funziona
-
-### Possibile causa
-Il file `database.py` ha un errore di configurazione.
-
-### Soluzione
-Controllare il file `secret.json` e verificare le credenziali.
+## I link della navbar non funzionano
+**Problema:** Cliccando i link
+non succede niente.
+**Soluzione:** Verifica che gli id
+delle sezioni corrispondano
+agli href della navbar.

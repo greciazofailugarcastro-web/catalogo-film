@@ -1,21 +1,15 @@
 # Quick Start
 
-## 1. Scarica il progetto
+## Come iniziare in 3 passi
 
-git clone https://github.com/greciazofailugarcastro-web/grecialu.git
+1. Apri il sito online:
+   https://greciazofailugarcastro-web.github.io/catalogo-film/
 
-## 2. Apri la cartella
+2. Usa la navbar per navigare tra le sezioni
 
-cd progetto_git
+3. Consulta la documentazione per maggiori dettagli
 
-## 3. Installa le dipendenze
+## Requisiti
 
-pip install -r requirements.txt
-
-## 4. Avvia il progetto
-
-python main.py
-
-## 5. Pronto!
-
-Il progetto è in esecuzione.
+- Un browser moderno (Chrome, Safari, Firefox)
+- Connessione internet
