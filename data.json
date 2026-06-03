@@ -1,0 +1,32 @@
+[
+    {
+        "titolo": "Interstellar",
+        "categoria": "Sci-fi",
+        "descrizione": "Un viaggio spaziale attraverso un buco nero."
+    },
+    {
+        "titolo": "The Matrix",
+        "categoria": "Sci-fi",
+        "descrizione": "Un hacker scopre la verità sulla realtà simulata."
+    },
+    {
+        "titolo": "Il Padrino",
+        "categoria": "Dramma",
+        "descrizione": "La storia di una potente famiglia mafiosa."
+    },
+    {
+        "titolo": "Titanic",
+        "categoria": "Romance",
+        "descrizione": "Una storia d'amore a bordo del famoso transatlantico."
+    },
+    {
+        "titolo": "Inception",
+        "categoria": "Thriller",
+        "descrizione": "Un ladro che entra nei sogni delle persone."
+    },
+    {
+        "titolo": "Forrest Gump",
+        "categoria": "Dramma",
+        "descrizione": "La vita straordinaria di un uomo semplice."
+    }
+]
