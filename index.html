@@ -5,110 +5,139 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Catalogo Film</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <header>
-    <h1>Catalogo Film</h1>
-    <p>Una pagina per consultare una lista di film.</p>
-    <nav>
-      <a href="#funzionalita">Funzionalità</a>
-      <a href="#guida">Guida rapida</a>
-      <a href="#documentazione">Documentazione</a>
-      <a href="#screenshot">Screenshot</a>
-      <a href="#contatti">Contatti</a>
-    </nav>
+  <header class="bg-dark text-white py-4">
+    <div class="container">
+      <h1 class="display-5 fw-bold">Catalogo Film 🎬</h1>
+      <p class="lead">Una pagina per consultare una lista di film.</p>
+      <nav class="navbar navbar-expand-lg">
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav gap-3">
+            <li class="nav-item"><a class="nav-link text-white" href="#funzionalita">Funzionalità</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#guida">Guida rapida</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#documentazione">Documentazione</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#screenshot">Screenshot</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#contatti">Contatti</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
   </header>
 
-  <main class="container">
+  <main class="container my-5">
 
-    <section id="funzionalita" class="card">
-      <h2>Funzionalità</h2>
-      <ul>
-        <li>Ricerca per titolo</li>
-        <li>Filtro per genere</li>
-        <li>Visualizzazione dettagli film</li>
-      </ul>
-      <a href="https://github.com/greciazofailugarcastro-web/catalogo-film" class="button">Vai alla repository</a>
+    <section id="funzionalita" class="card mb-4">
+      <div class="card-body">
+        <h2 class="card-title">Funzionalità</h2>
+        <ul>
+          <li>Ricerca per titolo</li>
+          <li>Filtro per genere</li>
+          <li>Visualizzazione dettagli film</li>
+        </ul>
+        <a href="https://github.com/greciazofailugarcastro-web/catalogo-film" class="btn btn-primary">Vai alla
+          repository</a>
+      </div>
     </section>
 
-    <section id="guida" class="card">
-      <h2>Guida rapida</h2>
-      <ol>
-        <li>Apri la pagina</li>
-        <li>Leggi il README</li>
-        <li>Consulta la guida utente</li>
-        <li>Seleziona un film</li>
-        <li>Leggi i dettagli</li>
-      </ol>
+    <section id="guida" class="card mb-4">
+      <div class="card-body">
+        <h2 class="card-title">Guida rapida</h2>
+        <ol>
+          <li>Apri la pagina</li>
+          <li>Leggi il README</li>
+          <li>Consulta la guida utente</li>
+          <li>Seleziona un film</li>
+          <li>Leggi i dettagli</li>
+        </ol>
+      </div>
     </section>
 
-    <section id="documentazione" class="card">
-      <h2>Documentazione</h2>
-      <ul>
-        <li><a href="docs/quick-start.md">Quick Start</a></li>
-        <li><a href="docs/guida-utente.md">Guida utente</a></li>
-        <li><a href="docs/installazione.md">Installazione</a></li>
-        <li><a href="docs/faq.md">FAQ</a></li>
-        <li><a href="docs/troubleshooting.md">Troubleshooting</a></li>
-        <li><a href="docs/architettura.md">Architettura</a></li>
-      </ul>
+    <section id="documentazione" class="card mb-4">
+      <div class="card-body">
+        <h2 class="card-title">Documentazione</h2>
+        <ul>
+          <li><a href="docs/quick-start.md">Quick Start</a></li>
+          <li><a href="docs/guida-utente.md">Guida utente</a></li>
+          <li><a href="docs/installazione.md">Installazione</a></li>
+          <li><a href="docs/faq.md">FAQ</a></li>
+          <li><a href="docs/troubleshooting.md">Troubleshooting</a></li>
+          <li><a href="docs/architettura.md">Architettura</a></li>
+        </ul>
+      </div>
     </section>
 
-    <section id="struttura" class="card">
-      <h2>Comandi Git</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Comando</th>
-            <th>Descrizione</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>git status</td>
-            <td>Mostra lo stato della repository</td>
-          </tr>
-          <tr>
-            <td>git add</td>
-            <td>Aggiunge modifiche allo staging</td>
-          </tr>
-          <tr>
-            <td>git commit</td>
-            <td>Salva le modifiche</td>
-          </tr>
-          <tr>
-            <td>git push</td>
-            <td>Carica le modifiche su GitHub</td>
-          </tr>
-        </tbody>
-      </table>
+    <section id="struttura" class="card mb-4">
+      <div class="card-body">
+        <h2 class="card-title">Comandi Git</h2>
+        <table class="table table-bordered">
+          <thead class="table-dark">
+            <tr>
+              <th>Comando</th>
+              <th>Descrizione</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>git status</td>
+              <td>Mostra lo stato della repository</td>
+            </tr>
+            <tr>
+              <td>git add</td>
+              <td>Aggiunge modifiche allo staging</td>
+            </tr>
+            <tr>
+              <td>git commit</td>
+              <td>Salva le modifiche</td>
+            </tr>
+            <tr>
+              <td>git push</td>
+              <td>Carica le modifiche su GitHub</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </section>
 
-    <section id="screenshot" class="card">
-      <h2>Screenshot</h2>
-      <p>Questa schermata mostra la pagina principale del progetto.</p>
-      <img src="assets/screenshots/homepage.png" alt="Screenshot homepage">
+    <section id="screenshot" class="card mb-4">
+      <div class="card-body">
+        <h2 class="card-title">Screenshot</h2>
+        <p>Questa schermata mostra la pagina principale del progetto.</p>
+        <img src="assets/screenshots/homepage.png" alt="Screenshot homepage" class="img-fluid rounded">
+      </div>
     </section>
 
-    <section id="contatti" class="card">
-      <h2>Richiedi informazioni</h2>
-      <form>
-        <label for="nome">Nome</label>
-        <input type="text" id="nome" name="nome">
-        <label for="messaggio">Messaggio</label>
-        <textarea id="messaggio" name="messaggio"></textarea>
-        <button type="submit">Invia</button>
-      </form>
+    <section id="contatti" class="card mb-4">
+      <div class="card-body">
+        <h2 class="card-title">Richiedi informazioni</h2>
+        <div class="alert alert-info">
+          Modulo dimostrativo — FISM 2026
+        </div>
+        <form>
+          <div class="mb-3">
+            <label for="nome" class="form-label">Nome</label>
+            <input type="text" class="form-control" id="nome" name="nome">
+          </div>
+          <div class="mb-3">
+            <label for="messaggio" class="form-label">Messaggio</label>
+            <textarea class="form-control" id="messaggio" name="messaggio" rows="4"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Invia</button>
+        </form>
+      </div>
     </section>
 
   </main>
 
-  <footer>
-    <p>Progetto FISM 2026 — Grecia</p>
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">Progetto FISM 2026 — Grecia</p>
   </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
